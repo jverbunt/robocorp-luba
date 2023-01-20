@@ -1,0 +1,23 @@
+{
+    "Email": {
+        "screenshot": ".images\\email-screenshot.png",
+        "source": "https://luba.helloflex.com/user/login",
+        "strategy": "name",
+        "type": "browser",
+        "value": "email"
+    },
+    "Knop inloggen": {
+        "screenshot": ".images\\knop-inloggen-screenshot.png",
+        "source": "https://luba.helloflex.com/",
+        "strategy": "css",
+        "type": "browser",
+        "value": ".inner_\\+nnsL0s"
+    },
+    "Password": {
+        "screenshot": ".images\\password-screenshot.png",
+        "source": "https://luba.helloflex.com/user/login",
+        "strategy": "name",
+        "type": "browser",
+        "value": "password"
+    }
+}
