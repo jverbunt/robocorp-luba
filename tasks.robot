@@ -1,6 +1,7 @@
 *** Settings ***
 Library     RPA.Browser.Selenium
 Library     RPA.Robocorp.Vault
+Library     DateTime
 
 
 *** Tasks ***
@@ -14,3 +15,4 @@ Inloggen
         Input Text When Element Is Visible    alias:Email    rjansen@luba.nl
     END
     ${name}=    Execute Javascript    jkhkjhkjhgh
+    ${result}=    Convert Date    exclude_millis=${TRUE}
