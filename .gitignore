@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+vault.json
+testrun/
+output/
+venv/
+temp/
+>>>>>>> ed50aed7f09ff78bc9bab6a6350876e5b546a985
 .rpa/
 .idea/
 .ipynb_checkpoints/
@@ -7,4 +15,8 @@
 .DS_Store
 *.pyc
 *.zip
+<<<<<<< HEAD
 output
+=======
+*/work-items-out/*
+>>>>>>> ed50aed7f09ff78bc9bab6a6350876e5b546a985
