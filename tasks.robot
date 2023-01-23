@@ -6,8 +6,11 @@ Library     RPA.Robocorp.Vault
 *** Tasks ***
 Inloggen
     ${secret}=    Get Secret    Luba
-	Open Available Browser    https://luba.helloflex.com/user/login    maximized=${TRUE}
-    Input Text When Element Is Visible    alias:Email    rjansen@luba.nl
+    Open Available Browser    https://luba.helloflex.com/user/login    maximized=${TRUE}
     Input Text When Element Is Visible    alias:Password    ${secret}[password]
-    Click Element If Visible    css:[class="submit"]
-    
+    i
+    ${return_value}=    Execute Javascript
+    FOR    ${io}
+        Input Text When Element Is Visible    alias:Email    rjansen@luba.nl
+    END
+    ${name}=    Execute Javascript    jkhkjhkjhgh
